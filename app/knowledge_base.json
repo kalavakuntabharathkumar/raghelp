@@ -1,0 +1,8 @@
+[
+ {"id":"KB-001","title":"Password reset","text":"To reset a password, open the company sign-in page, choose Forgot password, and follow the verified email link. Links expire after 30 minutes. Contact IT if the email does not arrive."},
+ {"id":"KB-002","title":"VPN access","text":"Install the company-approved VPN client from the software portal. Sign in with your company account and approve multi-factor authentication. If connection fails, check system time and contact IT with the error code."},
+ {"id":"KB-003","title":"Laptop request","text":"Submit a hardware request in the employee portal. Include manager approval, role, and preferred operating system. Standard requests are reviewed within three business days."},
+ {"id":"KB-004","title":"Email phishing","text":"Do not open suspicious attachments or provide credentials from an email link. Use the Report Phishing button in the mail client. If credentials were entered, change your password and contact security immediately."},
+ {"id":"KB-005","title":"Access permissions","text":"Request application access through the access portal, naming the system and business justification. The system owner and manager must approve before access is provisioned."},
+ {"id":"KB-006","title":"Ticket escalation","text":"Escalate outages, suspected account compromise, or urgent business blockers to the IT service desk. Include impact, affected service, time observed, and any error message. Never include passwords or recovery codes."}
+]
