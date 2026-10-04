@@ -8,6 +8,7 @@ def load_documents(path=None):
     return [{**d, "text": re.sub(r"\s+", " ", d["text"]).strip()} for d in data]
 
 def chunk_documents(documents, max_chars=420, overlap=60):
+    if max_chars < 1 or overlap < 0 or overlap >= max_chars: raise ValueError("Require max_chars > overlap >= 0")
     chunks=[]
     for doc in documents:
         text=doc["text"]
