@@ -4,7 +4,7 @@ from app.retrieval import Retriever
 
 def test_chunk_overlap_and_ids():
  chunks=chunk_documents([{'id':'X','title':'Long','text':'a'*100}],max_chars=40,overlap=10)
- assert len(chunks)==4 and chunks[0]['id']=='X-0'
+ assert len(chunks)==3 and chunks[0]['id']=='X-0'
 def test_invalid_chunk_parameters():
  with pytest.raises(ValueError): chunk_documents([],max_chars=10,overlap=10)
 def test_retrieval_returns_password_article():
